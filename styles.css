@@ -1635,3 +1635,40 @@ body {
 @media (max-width: 768px) {
     .cast-grid { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* ===== ANDREEA NOTE (caseta cu tip de la cursantă Andreea) — REGULA 15 ===== */
+/* Avatar 44×56px (NU dimensiune nativă!) — bug raportat 28 mai 2026 */
+.andreea-note {
+    background: #fffbeb;
+    border-left: 4px solid #f59e0b;
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px;
+    margin: 14px 0;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+.andreea-note-avatar {
+    width: 44px;
+    height: 56px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+.andreea-note-content {
+    flex: 1;
+}
+.andreea-note-content .speaker {
+    font-weight: 700;
+    color: #92400e;
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+}
+.andreea-note-content .speaker::before {
+    content: "💚 ";
+}
+.andreea-note-content .text {
+    color: #78350f;
+    font-size: 0.92rem;
+    font-style: italic;
+    line-height: 1.55;
+}
