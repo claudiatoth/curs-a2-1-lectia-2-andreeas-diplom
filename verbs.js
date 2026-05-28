@@ -141,10 +141,13 @@ function tenseTable(title, rows) {
 }
 
 function perfektCompact(v) {
+    // Verbe impersonale (stattfinden, regnen, etc.) au doar 1-2 forme — folosește [0] dacă [2] lipsește
+    const exampleRow = v.perf[2] || v.perf[0];
+    const exSubj = exampleRow[0] || 'er';
     return '<div class="theory-box" style="margin:8px 0; background:#d1fae5;">' +
         '<h4>Perfekt (pe scurt)</h4>' +
         '<p style="margin:0;">Auxiliar <strong>' + v.aux + '</strong> + participiul <strong>' + v.part + '</strong><br>' +
-        '<em>Exemplu:</em> er <strong>' + v.perf[2][1] + '</strong> · <em style="color:#6b7280;">' + v.perf[2][2] + '</em><br>' +
+        '<em>Exemplu:</em> ' + exSubj + ' <strong>' + exampleRow[1] + '</strong> · <em style="color:#6b7280;">' + exampleRow[2] + '</em><br>' +
         '<small style="color:#6b7280;">Conjugi auxiliarul ca de obicei (' + (v.aux === 'sein' ? 'ich bin, du bist, er ist...' : 'ich habe, du hast, er hat...') + ') + <strong>' + v.part + '</strong>.</small></p></div>';
 }
 
