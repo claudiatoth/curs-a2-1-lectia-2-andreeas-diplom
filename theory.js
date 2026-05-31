@@ -53,6 +53,22 @@ const theoryHTML = `
                     <em>În germană, când vrei să spui DE CE faci ceva, folosești <strong>weil</strong> (= „pentru că"). Când povestești ce zice altcineva, folosești <strong>dass</strong> (= „că"). Atenție: la ambele, verbul merge la SFÂRȘITUL propoziției! Asta e cea mai mare diferență față de română.</em>
                 </div>
             </div>
+
+            <!-- ===== TRIMITE TEXTUL CLAUDIEI — REGULA 18 ===== -->
+            <div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 2px solid #10B981; border-radius: 14px; padding: 24px 22px; margin-top: 22px; text-align: center; box-shadow: 0 2px 8px rgba(16, 185, 129, 0.12);">
+                <div style="font-size: 2.2rem; margin-bottom: 4px;">✍️</div>
+                <h4 style="color: #065f46; font-size: 1.2rem; margin: 0 0 8px; font-weight: bold;">Vrei să-ți corectez textul?</h4>
+                <p style="color: #047857; font-size: 0.95rem; margin: 0 0 16px; max-width: 520px; margin-left: auto; margin-right: auto; line-height: 1.5;">
+                    Scrie un text de <strong>80+ cuvinte despre propria ta absolvire</strong> (școală / facultate / curs).<br>
+                    Folosește <strong>weil</strong> + <strong>dass</strong> + <strong>Modalverbe la Präteritum</strong> (musste, wollte, durfte...). Îți răspund personal pe email cu corectările. 🦋
+                </p>
+                <a href="https://forms.gle/gdoy3G3UTXwHGhsz9" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #10B981; color: white; padding: 13px 30px; border-radius: 10px; text-decoration: none; font-weight: bold; font-size: 1rem; box-shadow: 0 2px 6px rgba(16, 185, 129, 0.3); transition: all 0.2s;" onmouseover="this.style.background='#047857'; this.style.transform='translateY(-1px)';" onmouseout="this.style.background='#10B981'; this.style.transform='translateY(0)';">
+                    Trimite textul Claudiei →
+                </a>
+                <p style="color: #6b7280; font-size: 0.78rem; margin-top: 12px; font-style: italic;">
+                    ʚଓ Răspuns personal pe email · Nu uita să-ți treci adresa de email în formular
+                </p>
+            </div>
         </div>
     </div>
 
